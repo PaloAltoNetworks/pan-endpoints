@@ -1,0 +1,83 @@
+{
+    "syncToken": 1727802417,
+    "creationTimestamp": "2024-10-01T17:06:57+0000",
+    "applications":
+    [
+        {
+            "name": "strata-cloud-manager",
+            "description": "Strata Cloud Manager"
+        }
+    ],
+    "functions":
+    [
+        {
+            "name": "aiops-telemetry",
+            "description": "Telemetry collection",
+            "application": "strata-cloud-manager",
+            "regions":
+            [
+                {
+                    "name": "commercial",
+                    "description": "Global commercial regions",
+                    "ipv4":
+                    [],
+                    "ipv6":
+                    [],
+                    "url":
+                    [],
+                    "fqdn":
+                    [
+                        "br-prd1.us.cdl.paloaltonetworks.com",
+                        "br-prd1.nl.cdl.paloaltonetworks.com",
+                        "br-prd1.uk.cdl.paloaltonetworks.com",
+                        "br-prd1.sg1.se1.cdl.paloaltonetworks.com",
+                        "br-prd1.ca1.ne1.cdl.paloaltonetworks.com",
+                        "br-prd1.jp1.ne1.cdl.paloaltonetworks.com",
+                        "br-prd1.au1.se1.cdl.paloaltonetworks.com",
+                        "br-prd1.de1.ew3.cdl.paloaltonetworks.com",
+                        "br-prd1.in1.as1.cdl.paloaltonetworks.com",
+                        "br-prd1.ch1.ew6.cdl.paloaltonetworks.com",
+                        "br-prd1.es1.sw1.cdl.paloaltonetworks.com",
+                        "br-prd1.it1.ew8.cdl.paloaltonetworks.com",
+                        "br-prd1.fr1.ew9.cdl.paloaltonetworks.com",
+                        "br-prd1.pl1.ec2.cdl.paloaltonetworks.com",
+                        "br-prd1.il1.mw1.cdl.paloaltonetworks.com",
+                        "br-prd1.id1.se2.cdl.paloaltonetworks.com",
+                        "br-prd1.tw1.ae1.cdl.paloaltonetworks.com",
+                        "br-prd1.qa1.mc1.cdl.paloaltonetworks.com",
+                        "br-prd1.kr1.ne3.cdl.paloaltonetworks.com",
+                        "br-prd1.sa1.mc2.cdl.paloaltonetworks.com"
+                    ]
+                },
+                {
+                    "name": "fedramp-high",
+                    "description": "FedRAMP High region",
+                    "ipv4":
+                    [],
+                    "ipv6":
+                    [],
+                    "url":
+                    [],
+                    "fqdn":
+                    [
+                        "br-highgov1.us1.cent1.highgov.cdl.paloaltonetworks.com"
+                    ]
+                },
+                {
+                    "name": "fedramp-moderate",
+                    "description": "FedRAMP Moderate region",
+                    "ipv4":
+                    [],
+                    "ipv6":
+                    [],
+                    "url":
+                    [],
+                    "fqdn":
+                    [
+                        "br-gov1.us1.cent1.gov.cdl.paloaltonetworks.com"
+                    ]
+                }
+            ]
+        }
+    ]
+}
